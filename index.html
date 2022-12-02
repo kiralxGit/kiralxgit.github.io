@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Домашнее задание 2</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
             <img src="https://ae04.alicdn.com/kf/Sff44f97e2d1047ad9a4d992c6661d886U.jpg_350x350.jpg" alt="логотип сайта">
         </div>
         <div class="name">
-            <h1>Домашняя работа № 2</h1>
+            <h1>Домашняя работа № 2 и 3</h1>
             <p>
                 Здесь мог бы быть какой-нибудь дескриптор описывающий<br><strong>цели и миссию</strong><br>данного сайта
             </p>
@@ -31,6 +32,23 @@
         <header>
             <h2>Что же мы сейчас изучаем?</h2>
         </header>
+        <div class="jshw">
+            <div class="callByName">
+                <h3>Задание 1 к ДЗ 3</h3>
+                <button onclick="callByName()">Вызвать модальное окно</button>
+            </div>
+            <div class="calc">
+                <h3>Задание 2 к ДЗ 3</h3>
+                <input type="text" id="num1" value="0">
+                <button onclick="calc('+')"><b>+</b></button>
+                <button onclick="calc('-')"><b>-</b></button>
+                <button onclick="calc('*')"><b>*</b></button>
+                <button onclick="calc('/')"><b>/</b></button>
+                <input type="text" id="num2" value="0">
+                <b>=</b>
+                <input type="text" id="result" value="0">
+            </div>
+        </div>
         <div class="main">
             <div class="item">
                 <div class="image"><img src="https://avatars.dzeninfra.ru/get-zen_doc/1708265/pub_6079f3be1b83785a8288677e_6079f7977e45e42df4c07e5b/scale_1200" alt="лого agile"></div>
